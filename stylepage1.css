@@ -1,0 +1,137 @@
+
+body {
+	margin: 0px;
+}
+
+button {
+	border-radius: 10px;
+	padding: 10px;
+	width: 190px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+h1 {
+	font-size: 3vw
+}
+
+p {
+	font-size:2vw;
+}
+
+
+.wrapper {
+	width: 100%;
+	background-color: white;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 1500;
+}
+
+.header {
+	width: 100%;
+	background-color: #fad779;
+	margin-top: 0px;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 150;
+}
+
+
+.bar {
+	width: 100%;
+	display: flex;
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	justify-content: center;
+	text-align: center;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 110;
+}
+
+.navbar ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	justify-content: center;
+
+}
+.navbar a {
+	color: black;
+	font-size: 2.5vw;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+
+}
+.navbar a:hover {
+	background-color: lightyellow;
+}
+.navbar li {
+	float: left;
+}
+
+.donatearea {
+	width: 100%;
+	 display: flex;
+  justify-content: center;
+  align-items: center;       
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 400;
+}
+
+.donate {
+	width: 50%;
+	background-color: white;
+	border-radius: 50px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	filter: drop-shadow(2px 5px 2px rgba(0, 0, 0, 0.5));
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 500;
+}
+
+
+.infoarea {
+	background-color: white;
+	display: flex;
+	width: 100%;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 750;
+
+}
+
+.infocontent1 {
+	background-color: white;
+	flex: 1;
+	padding: 10px;
+	margin-left: 100px;
+}
+
+.infocontent2 {
+	background-color: lightgray;
+	flex: 1;
+	padding: 10px;
+	margin-right: 100px;
+	border: 1px solid;
+}
+
+
+
+
+
+
+
+
