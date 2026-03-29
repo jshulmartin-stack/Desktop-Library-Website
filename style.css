@@ -1,0 +1,135 @@
+
+body {
+	margin: 0px;
+}
+
+
+button {
+	border-radius: 25px;
+	padding: 10px;
+	width: 190px;
+	font-weight: bold;
+	font-size: 25px;
+	border: none;
+	background-color: #fad779;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: skyblue;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 2035;
+}
+
+.header {
+	width: 100%;
+	background-color: #fad779;
+	margin-top: 0px;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 150;
+}
+
+.bar {
+	width: 100%;
+	display: flex;
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	justify-content: center;
+	text-align: center;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 110;
+}
+
+
+.navbar ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	justify-content: center;
+
+}
+.navbar a {
+	color: black;
+	font-size: 2.5vw;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+
+}
+.navbar a:hover {
+	background-color: lightyellow;
+}
+.navbar li {
+	float: left;
+}
+
+
+
+.carouselarea {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 720;
+}
+
+.carousel {
+	width: 75%;
+    background-color: lightslategray;
+    border: 2px black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1115 / 550;
+}
+.space {
+	width: 100%;
+	background-color: white;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 240;
+}
+
+.imgarea {
+	width: 100%;
+	background-color: lightyellow;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: margin-top;
+	align-items: center;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 590;
+}
+
+.images {
+	width: 50%;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	background-color: white;
+	aspect-ratio: 1455 / 350;
+}
+
+
+.footer {
+	width: 100%;
+	background-color: ghostwhite;
+	aspect-ratio: attr(width) / attr(height);
+	aspect-ratio: 1455 / 225;
+}
+
+
+
