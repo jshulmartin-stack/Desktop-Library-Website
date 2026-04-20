@@ -10,11 +10,16 @@ h1 {
 }
 
 p {
-	font-size:1.2rem;
+	font-size:1.25vw;
 }
 
 h2 {
-	font-size: 2vw;
+	font-size: 1.75vw;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 
@@ -58,7 +63,7 @@ h2 {
 	padding: 0;
 	background-color: white;
 	color: black;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	
 }
 
@@ -103,7 +108,10 @@ ul.sub-menu li{
 .imgarea {
 	width: 100%;
 	display: flex;
-	background-color: lightgray;
+	background-image: url("images/bannerimg.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: ;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	justify-content: center;
