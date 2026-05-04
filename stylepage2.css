@@ -1,4 +1,25 @@
 
+@font-face {
+	font-family: 'thin';
+	src: url('fonts/GraphikThin.otf') format('opentype');
+	font-weight: normal;
+	font-size: normal;
+}
+
+@font-face {
+	font-family: 'regular';
+	src: url('fonts/GraphikRegular.otf') format('opentype');
+	font-weight: normal;
+	font-size: normal;
+}
+
+@font-face {
+	font-family: 'bold';
+	src: url('fonts/GraphikBold.otf') format('opentype');
+	font-weight: normal;
+	font-size: normal;
+}
+
 
 body {
 	margin: 0px;
@@ -6,20 +27,35 @@ body {
 
 
 h1 {
-	font-size: 3vw
+	font-size: 4vw;
+	font-family: 'regular';
+
 }
 
 p {
 	font-size:1.25vw;
+	font-family: 'regular';
+	line-height: 2.5vw;
 }
 
-h2 {
-	font-size: 1.75vw;
+h3 {
+	font-size: clamp(.8rem, 2vw, 1.25rem);
+	font-family: 'regular';
+	line-height: .5vw;
+}
+
+
+h2{
+	font-size: clamp(.5rem, 1.5vw, 1.75rem);
+	font-family: 'regular';
+	line-height: 2vw;
 }
 
 a {
 	text-decoration: none;
 	color: black;
+	font-family: 'regular';
+	font-size: clamp(.8rem, 2vw, 1.25rem);
 }
 
 
@@ -36,11 +72,69 @@ a {
 
 .header {
 	width: 100%;
-	background-color: #fad779;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fad779; 
 	margin-top: 0px;
 	aspect-ratio: attr(width) / attr(height);
 	aspect-ratio: 1455 / 150;
+
 }
+
+.headerimg {
+	width: 13.75vw;
+	max-width: 205px;
+	min-width: 50px;
+	display: flex;
+	margin-right: 2vw;
+}
+
+.search-bar{
+	width: 50%;
+	height: 3.4vw;
+	max-width: 600px;
+	background: white;
+	display: flex;
+	align-items: center;
+	border-radius: 5vw;
+	padding: 0.687vw 1.375vw;
+}
+
+
+.search-bar input{
+	width: 100%;
+	height: 1.5vw;
+	background: white;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 1.65vw 1.375vw;
+	font-size: 1.375vw;
+	border-radius: 5vw;
+	color: darkgray;
+
+}
+
+::placeholder{
+	color: lightgray;
+}
+
+.search-bar button img{
+	width: 2.5vw;
+}
+
+.search-bar button {
+	width: 4.124vw;
+	height: 4.124vw;
+	border: 0;
+	border-radius: 50%;
+	background: white;
+	cursor: pointer;
+}
+
+
+
 
 .bar {
 	width: 100%;
@@ -111,10 +205,10 @@ ul.sub-menu li{
 	background-image: url("images/bannerimg.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: ;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	justify-content: center;
+	align-items: center;
 	text-align: center;
 	aspect-ratio: attr(width) / attr(height);
 	aspect-ratio: 1455 / 350;
@@ -125,6 +219,7 @@ ul.sub-menu li{
 	width: 100%;
 	display: flex;
 	background-color: white;
+	flex-wrap: wrap;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	aspect-ratio: attr(width) / attr(height);
@@ -134,14 +229,17 @@ ul.sub-menu li{
 
 .column {
 	width: 50%;
+	flex: 1;
 	margin: 5vw;
 	display: flex;
 	flex-wrap: wrap;
+	min-width: 300px;
 	background-color:;
 }
 
 
 .footerarea {
+	display: flex;
 	width: 100%;
 	background-color: #fad779;
 	aspect-ratio: attr(width) / attr(height);
